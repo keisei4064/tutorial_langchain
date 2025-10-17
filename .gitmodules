@@ -1,0 +1,3 @@
+[submodule "agent-book"]
+	path = agent-book
+	url = git@github.com:GenerativeAgents/agent-book.git
