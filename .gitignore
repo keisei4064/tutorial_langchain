@@ -1,2 +1,5 @@
 .venv
 .env
+
+sqlite.db
+chroma_db

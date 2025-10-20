@@ -20,9 +20,10 @@ dependencies = [
     "langchain-text-splitters>=1.0.0",
     "openai>=2.5.0",
     "python-dotenv>=1.1.1",
+    "rank-bm25>=0.2.2",
     "sentence-transformers>=5.1.1",
     "tavily-python>=0.7.12",
-    "tiktoken==0.7.0",
+    "tiktoken>=0.7.0",
     "torch>=2.9.0",
     "transformers>=4.57.1",
 ]
