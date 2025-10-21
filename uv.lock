@@ -3617,6 +3617,12 @@ wheels = [
 ]
 
 [[package]]
+name = "pygraphviz"
+version = "1.14"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/ca/823d5c74a73d6b8b08e1f5aea12468ef334f0732c65cbb18df2a7f285c87/pygraphviz-1.14.tar.gz", hash = "sha256:c10df02377f4e39b00ae17c862f4ee7e5767317f1c6b2dfd04cea6acc7fc2bea", size = 106003, upload-time = "2024-09-29T18:31:12.471Z" }
+
+[[package]]
 name = "pypika"
 version = "0.48.9"
 source = { registry = "https://pypi.org/simple" }
@@ -4827,8 +4833,10 @@ dependencies = [
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
+    { name = "langgraph-checkpoint" },
     { name = "nest-asyncio" },
     { name = "openai" },
+    { name = "pygraphviz" },
     { name = "python-dotenv" },
     { name = "ragas" },
     { name = "rank-bm25" },
@@ -4855,8 +4863,10 @@ requires-dist = [
     { name = "langchain-ollama", specifier = ">=1.0.0" },
     { name = "langchain-openai", specifier = ">=1.0.0" },
     { name = "langchain-text-splitters", specifier = ">=1.0.0" },
+    { name = "langgraph-checkpoint", specifier = ">=2.1.2" },
     { name = "nest-asyncio", specifier = ">=1.6.0" },
     { name = "openai", specifier = ">=2.5.0" },
+    { name = "pygraphviz", specifier = ">=1.14" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "ragas", specifier = ">=0.3.1" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
