@@ -3,3 +3,5 @@
 
 sqlite.db
 chroma_db
+
+__pycache__
